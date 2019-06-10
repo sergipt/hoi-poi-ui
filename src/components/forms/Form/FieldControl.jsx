@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 import Input from '../Input';
 import InputGroup from '../InputGroup';
+import Checkbox from '../Checkbox';
 import CheckboxGroup from '../CheckboxGroup';
 import RadioGroup from '../RadioGroup';
 import Select from '../Select';
@@ -12,6 +13,7 @@ import Multiplier from '../Multiplier';
 const FIELD_MAP = {
     text: Input,
     inputGroup: InputGroup,
+    checkbox: Checkbox,
     checkboxGroup: CheckboxGroup,
     radioGroup: RadioGroup,
     select: Select,
